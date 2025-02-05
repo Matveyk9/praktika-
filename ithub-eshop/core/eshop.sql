@@ -107,17 +107,15 @@ call spAddItemToCatalog('Back to the future', 'Robert Zemeckis', 2499, 1985);
 call spAddItemToCatalog('DEI fall', 'Not mentioned', 2399, 2026);
 call spAddItemToCatalog('The Knowledge: How to Rebuild Our World from Scratch', 'Lewis Dartnell', 8999, 2014);
 call spAddItemToCatalog('Influence of TikTok', 'Chao Men', 3599, 2025);
-call spAddItemToCatalog('STupid book', 'Mat Wiscas', 2599, 2000);
 
-call spSaveOrder('setupid1', 'Kris', 'kriss@gmail.com', '+88005451222', 'bus stop');
+call spSaveOrder('setupid1', 'Kris', 'kriss@gmail.com', '+88005451222', 'arctic');
 call spSaveOrderedItems('setupid1', 1, 1);
-call spSaveOrderedItems('setupid1', 4, 1);
+call spSaveOrderedItems('setupid1', 2, 2);
 
-call spSaveOrder('setupid2', 'Bob', 'Bob@gmail.com', '+87851231234', 'Omerica');
-call spSaveOrderedItems('setupid2', 2, 1);
-call spSaveOrderedItems('setupid2', 3, 1);
+call spSaveOrder('setupid2', 'Bob', 'Bob@gmail.com', '+87851231234', 'Dagestan');
 call spSaveOrderedItems('setupid2', 5, 1);
-call spSaveOrderedItems('setupid2', 6, 1);
+call spSaveOrderedItems('setupid2', 3, 1);
+call spSaveOrderedItems('setupid2', 4, 3);
 
 -- #####################################################################
 -- DROP
