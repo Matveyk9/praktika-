@@ -1,0 +1,20 @@
+version: '3.3'
+
+services:
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: "eshop"
+      MYSQL_USER: "vladislav"
+      MYSQL_PASSWORD: "12345"
+      MYSQL_ROOT_PASSWORD: "12345"
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    volumes:
+      - data:/var/lib/mysql
+
+volumes:
+  data:
